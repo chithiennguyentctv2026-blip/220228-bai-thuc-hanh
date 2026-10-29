@@ -3,33 +3,33 @@
 int main(){
 	int n;
 	
-	printf("Nhap so tu 1 den 7"):
+	printf("Nhap so tu 1 den 7:" );
 		scanf("%d",&n);
 		
 		switch(n) {
 			case 1:
-			printf<<"Chu Nhat";
+			printf("Chu Nhat");
 			break;
 		case 2:
-		    printf<<"Thu hai";
+		    printf("Thu hai");
 			break;
 		case 3:
-		    printf<<"Thu ba";
+		    printf("Thu ba");
 			break;	
 		case 4:
-		    printf<<"Thu tu";
+		    printf("Thu tu");
 			break;
 		case 5:
-		    printf<<"Thu nam";
+		    printf("Thu nam");
 			break;	
 		case 6:
-		    printf<<"Thu sau";
+		    printf("Thu sau");
 			break;	
 		case 7:
-		    printf<<"Thu bay";
+		    printf("Thu bay");
 			break;
 			default:
-			printf<<"Nhap sai";	
+			printf("Nhap sai");	
 		}
 }
 
