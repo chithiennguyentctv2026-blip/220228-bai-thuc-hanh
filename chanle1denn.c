@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(){
-	int n,i;
-	printf("Nhap n;");
-	scanf("%d",&n);5
-		for(i=1;i<=n;i++){
-		if (i%2==0){
+	int n,i=2;
+	printf("Nhap n:");
+	scanf("%d",&n);
+	printf("Cac so chan la:"):
+		while(i<=n){
 			printf("%d",i);
-			
-		}
+			i+=2;
 		}
 		return 0;
 }
+	
