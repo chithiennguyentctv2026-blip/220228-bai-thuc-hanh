@@ -2,7 +2,7 @@
 int main(){
 	int n,i;
 	printf("Nhap n;");
-	scanf("%d",&n);
+	scanf("%d",&n);5
 		for(i=1;i<=n;i++){
 		if (i%2==0){
 			printf("%d",i);
